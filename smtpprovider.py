@@ -1,0 +1,3 @@
+
+def smtpown():
+    return True
