@@ -3,36 +3,36 @@
 
 # set default
 **accept_all = True**  
-# Whether the mail server used to verify indicates that all addresses are deliverable regardless of whether or not the email is valid.
+_Whether the mail server used to verify indicates that all addresses are deliverable regardless of whether or not the email is valid._
 **disposable = False**  
-# Whether this email is hosted on a disposable or temporary email service.
+_Whether this email is hosted on a disposable or temporary email service._
 **domain = "gmail.com" ** 
-# The domain of the email. (e.g. The domain for john.smith@gmail.com would be gmail.com)
+_The domain of the email. (e.g. The domain for john.smith@gmail.com would be gmail.com)_
 **duration = 0.493**  
-# The length of time (in seconds) spent verifying this email.
+_The length of time (in seconds) spent verifying this email._
 **email = email**  
-# The email that was verified.
+_The email that was verified._
 **first_name = "John"**  
-# The possible first name of the user.
+_The possible first name of the user._
 **free = True**  
-# Whether the email is hosted by a free email provider.
+_Whether the email is hosted by a free email provider._
 **full_name = "John Smith"**  
-# The possible full name of the user.
+_The possible full name of the user._
 **gender = "male"**  
-# The possible gender of the user.
+_The possible gender of the user._
 **last_name = "Smith"**  
-# The possible last name of the user.
+_The possible last name of the user._
 **mx_record = "aspmx.l.google.com"**  
-# The address of the mail server used to verify the email.
+_The address of the mail server used to verify the email._
 **reason = "accepted_email"**  
-# The reason for the associated state.
+_The reason for the associated state._
 **role = False**  
-# Whether the email is considered a role address. (e.g. support, info, etc.)
+_Whether the email is considered a role address. (e.g. support, info, etc.)_
 **score = 100**  
-# The score of the verified email.
+_The score of the verified email._
 **smtp_provider = "google"**  
-# The SMTP provider of the verified email's domain.
+_The SMTP provider of the verified email's domain._
 **state = "deliverable"**  
-# The state of the verified email. (e.g. deliverable, undeliverable, risky, unknown)
+__The state of the verified email. (e.g. deliverable, undeliverable, risky, unknown)
 **user = "john.smith"**  
-# The user part of the verified email. (e.g. The user for john.smith@gmail.com would be john.smith)
+_The user part of the verified email. (e.g. The user for john.smith@gmail.com would be john.smith)_
