@@ -36,3 +36,22 @@ _The SMTP provider of the verified email's domain._
 __The state of the verified email. (e.g. deliverable, undeliverable, risky, unknown)
 **user = "john.smith"**  
 _The user part of the verified email. (e.g. The user for john.smith@gmail.com would be john.smith)_
+
+
+# Sample Response
+
+```
+{
+"accept_all": false,
+"disposable": false,
+"domain": "webzworld.com",
+"duration": 0.3289344310760498,
+"email": "prathmesh@webzworld.com",
+"free": false,
+"mx_record": "webzworld-com.mail.eo.outlook.com.",
+"reason": "Email undeliverable",
+"role": "unknown",
+"state": "undeliverable",
+"user": "prathmesh"
+}
+```
