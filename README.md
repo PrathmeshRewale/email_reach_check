@@ -6,7 +6,7 @@
 _Whether the mail server used to verify indicates that all addresses are deliverable regardless of whether or not the email is valid._  
 **disposable = False**    
 _Whether this email is hosted on a disposable or temporary email service._  
-**domain = "gmail.com" **  
+**domain = "gmail.com"**  
 _The domain of the email. (e.g. The domain for john.smith@gmail.com would be gmail.com)_  
 **duration = 0.493**  
 _The length of time (in seconds) spent verifying this email._  
