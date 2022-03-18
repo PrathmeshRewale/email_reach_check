@@ -2,14 +2,14 @@
 
 
 # set default
-**accept_all = True**  
-_Whether the mail server used to verify indicates that all addresses are deliverable regardless of whether or not the email is valid._
-**disposable = False**  
-_Whether this email is hosted on a disposable or temporary email service._
-**domain = "gmail.com" ** 
-_The domain of the email. (e.g. The domain for john.smith@gmail.com would be gmail.com)_
+**accept_all = True**   
+_Whether the mail server used to verify indicates that all addresses are deliverable regardless of whether or not the email is valid._  
+**disposable = False**    
+_Whether this email is hosted on a disposable or temporary email service._  
+**domain = "gmail.com" **  
+_The domain of the email. (e.g. The domain for john.smith@gmail.com would be gmail.com)_  
 **duration = 0.493**  
-_The length of time (in seconds) spent verifying this email._
+_The length of time (in seconds) spent verifying this email._  
 **email = email**  
 _The email that was verified._
 **first_name = "John"**  
