@@ -18,8 +18,8 @@ def checkacceptall(domain, mxrecord):
 
         # SMTP Conversation
         server.connect(mxrecord)
-        server.helo("jani.com")
-        server.mail('info@' + "jani.com")
+        server.helo(host)
+        server.mail('info@' + host)
         code, message = server.rcpt(str("erfds234fr@" + domain))
         server.quit()
 
