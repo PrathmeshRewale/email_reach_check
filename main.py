@@ -59,7 +59,7 @@ def verification(email):
             'free': 'unknown',
             'mx_record': 'unknown',
             'reason': 'Invalid Email Syntax',
-            'role': 'unknown',
+            'role': False,
             'state': 'undeliverable',
             'user': 'unknown'
 
@@ -70,5 +70,3 @@ def verification(email):
 if __name__ == "__main__":
     app.run(debug=True)
 
-# pip install flask
-# pip install dns

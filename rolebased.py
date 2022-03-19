@@ -4,7 +4,7 @@ def rolemails(user):
 
     for role in roles:
         if role == user:
-            return 'role'
-    return 'unknown'
+            return True
+    return False
 
 
